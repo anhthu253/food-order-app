@@ -1,0 +1,36 @@
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem 0
+}
+
+.action{
+    text-align:right;
+}
+
+.action button{
+    font:inherit;
+    cursor:pointer;
+    border: 1px solid #8a2b06;
+    border-radius:25px;
+    padding: 0.5rem 2rem;
+    margin-left:1rem;
+}
+
+.action button.order{
+    background-color: #8a2b06;
+    color:white;
+}
+
+.action button.close{
+    color:#8a2b06;
+    background-color: transparent;
+}
